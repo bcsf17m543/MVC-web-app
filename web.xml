@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	
+	<servlet>
+		
+		<servlet-name>SearchPersonServlet</servlet-name>
+		<servlet-class>SearchPersonServlet</servlet-class>
+	</servlet>
+	<servlet>
+		
+		<servlet-name>ShowPersonServlet</servlet-name>
+		<servlet-class>ShowPersonServlet</servlet-class>
+	</servlet>
+<servlet>
+		
+		<servlet-name>InsertPersonServlet</servlet-name>
+		<servlet-class>InsertPersonServlet</servlet-class>
+	</servlet>
+	<servlet>
+		
+		<servlet-name>ShowInsertServlet</servlet-name>
+		<servlet-class>ShowInsertServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>SearchPersonServlet</servlet-name>
+		<url-pattern>/SearchPersonServlet</url-pattern>
+	</servlet-mapping>
+		<servlet-mapping>
+		<servlet-name>ShowPersonServlet</servlet-name>
+		<url-pattern>/ShowPersonServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>InsertPersonServlet</servlet-name>
+		<url-pattern>/InsertPersonServlet</url-pattern>
+	</servlet-mapping>
+		<servlet-mapping>
+		<servlet-name>ShowInsertServlet</servlet-name>
+		<url-pattern>/ShowInsertServlet</url-pattern>
+	</servlet-mapping>
+</web-app>
